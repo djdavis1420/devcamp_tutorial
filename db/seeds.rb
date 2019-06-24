@@ -43,3 +43,10 @@ end
     )
     puts "Portfolio Created"
 end
+
+3.times do |technology|
+    Portfolio.last.technologies.create(
+        name: "Technology #{technology}"
+    )
+    puts "Technology Created"
+end
