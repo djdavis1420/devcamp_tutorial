@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/djdavis1420/devcamp_tutorial_view_tool
+  revision: 0318a4655bf2ec724b59b18819698f426b8965ff
+  specs:
+    devcamp_tutorial_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -225,6 +231,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  devcamp_tutorial_view_tool!
   devise (~> 4.6, >= 4.6.2)
   execjs (~> 2.7)
   friendly_id (~> 5.2.4)
