@@ -21,8 +21,9 @@
     <%# Start of Header %>
     <header class="blog-header">
       <div class="container">
-        <h1 class="blog-title">The Bootstrap Blog</h1>
-        <p class="lead blog-description">An example blog template built with Bootstrap.</p>
+        <h1 class="blog-title">Devcamp Tutorial Blog</h1>
+        <p class="lead blog-description">Exercise from Jordan Hudgens' Ruby on Rails Course on Udemy</p>
+        <%= link_to 'Write New Post', new_blog_path if logged_in?(:site_admin) %>
       </div>
     </header>
     <%# End of Header %>
@@ -31,8 +32,6 @@
     <div class="container">
 	    <div class="row">
     <%# End of Container %>
-
-        
 
         <%= yield %>
 
@@ -73,7 +72,7 @@
           </aside><!-- /.blog-sidebar -->
 
         <%# end of sidebar %>
-
+      </div>
         <%# start of footer %>
 
           <footer class="blog-footer">
@@ -85,11 +84,8 @@
 
         <%# end of footer %>
 
-
-        <%= render "shared/nav", location: "bottom"%>
-
         <%= source_helper("blog") %>
-      </div>
+
     </div>
   </body>
 </html>
