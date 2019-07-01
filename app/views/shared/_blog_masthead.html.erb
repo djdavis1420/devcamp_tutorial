@@ -1,0 +1,7 @@
+<header class="blog-header">
+  <div class="container">
+    <h1 class="blog-title">Devcamp Tutorial Blog</h1>
+    <p class="lead blog-description">Exercise from Jordan Hudgens' Ruby on Rails Course on Udemy</p>
+    <%= link_to 'Write New Post', new_blog_path if logged_in?(:site_admin) %>
+  </div>
+</header>
