@@ -5,6 +5,12 @@
     </div>
 
     <div class="col-md-5">
+      <% if logged_in?(:site_admin) %>
+        <div class="">
+          <%= link_to "Edit Item", edit_portfolio_path(@portfolio_item), class: "btn btn-warning btn-block" %>
+        </div>
+      <% end %>
+      
       <h1><%= @portfolio_item.title %></h1>
       <hr>
       <em><%= @portfolio_item.subtitle %></em>
@@ -14,6 +20,7 @@
       <% @portfolio_item.technologies.each do |technology| %>
       <p><%= technology.name %></p>
       <% end %>
+
     </div>
   </div>
 </div>
