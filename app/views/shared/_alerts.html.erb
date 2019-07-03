@@ -1,7 +1,0 @@
-<% if flash[:alert] %>
-  <%= js add_gritter(flash[:alert], title: "Devcamp Tutorial", sticky: false) %>
-<% elsif flash[:error] %>
-  <%= js add_gritter(flash[:error], title: "Devcamp Tutorial", sticky: false) %>
-<% elsif flash[:notice] %>
-  <%= js add_gritter(flash[:notice], title: "Devcamp Tutorial", sticky: false) %>
-<% end %>
