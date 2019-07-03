@@ -27,6 +27,10 @@ module ApplicationHelper
         title: "Home"
       },
       {
+        url: news_path,
+        title: "News"
+      },
+      {
         url: about_path,
         title: "About"
       },

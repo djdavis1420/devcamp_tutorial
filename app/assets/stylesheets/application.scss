@@ -148,3 +148,16 @@ body {
 .app-footer {
   color: white;
 }
+
+.news {
+  color: black;
+  margin: 10px;
+}
+
+.news a {
+  color: green;
+}
+
+.news > .card {
+  padding: 10px;
+}
