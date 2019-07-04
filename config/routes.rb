@@ -17,4 +17,6 @@ Rails.application.routes.draw do
   get 'about' => 'pages#about'
   get 'contact' => 'pages#contact'
   get 'news' => 'pages#news'
+
+  mount ActionCable.server => "/cable"
 end
