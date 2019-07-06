@@ -1,3 +1,22 @@
+User.create(
+    email: "jane@example.com"
+    password: "password",
+    password_confirmation: "password",
+    name: "Jane Smith",
+    roles: "site_admin"
+)
+
+puts "Admin User Created"
+
+User.create(
+    email: "john@example.com"
+    password: "password",
+    password_confirmation: "password",
+    name: "John Smith",
+)
+
+puts "Standard User Created"
+
 3.times do |topic|
     Topic.create(
         title: "Topic #{topic}"

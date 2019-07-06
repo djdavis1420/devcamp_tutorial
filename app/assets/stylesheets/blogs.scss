@@ -18,13 +18,23 @@
   text-decoration: none;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+}
+
 h1,
+.h1,
 h2,
+.h2,
 h3,
+.h3,
 h4,
+.h4,
 h5,
-h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+.h5,
+h6,
+.h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .display-4 {
@@ -156,4 +166,13 @@ h6 {
 
 .comment-name {
   font-weight: 700;
+}
+
+.blogcrumb a {
+  font-size: 2em;
+  margin: 0px 100px 0px 100px;
+}
+
+.blog-nav {
+  margin-bottom: 15px;
 }

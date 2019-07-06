@@ -30,6 +30,22 @@ a:hover {
 html,
 body {
   height: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -160,4 +176,28 @@ body {
 
 .news > .card {
   padding: 10px;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.app-card-container a {
+  color: blue;
+}
+
+.app-card-container h1 {
+  margin-bottom: 20px;
+}
+
+.collapse > .card-block {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.skill {
+  color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
