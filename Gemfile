@@ -65,7 +65,7 @@ gem 'devcamp_tutorial_view_tool', git: 'https://github.com/djdavis1420/devcamp_t
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 gem 'kaminari', '~> 1.2'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
-gem 'carrierwave', '~> 1.3', '>= 1.3.1'
+gem 'carrierwave', '~> 1.3'
 gem 'mini_magick', '~> 4.9'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.4'
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
